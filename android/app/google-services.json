@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495014732221",
+    "project_id": "invoice-manager-6a14f",
+    "storage_bucket": "invoice-manager-6a14f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495014732221:android:8c7ddfceb4c0c9a81af2d4",
+        "android_client_info": {
+          "package_name": "com.app.invoice_maker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495014732221-nqsfucd8cam7kj0pvq8gq651ur1t56kh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.invoice_maker",
+            "certificate_hash": "636342c342b1b5493223027875d92b86f9d40705"
+          }
+        },
+        {
+          "client_id": "495014732221-ndpim0piu446qas3ink8r748ln1qhdm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEt-CElW3zY7u7S72GBYBnxDlU_V455dA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495014732221-ndpim0piu446qas3ink8r748ln1qhdm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
