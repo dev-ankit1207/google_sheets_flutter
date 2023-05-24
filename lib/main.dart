@@ -7,6 +7,7 @@ import 'package:invoice_maker/services/auth_services.dart';
 import 'package:invoice_maker/services/gsheets_services.dart';
 import 'package:invoice_maker/services/user_services.dart';
 import 'package:invoice_maker/store/app_store.dart';
+import 'package:invoice_maker/utils/app_theme.dart';
 import 'package:invoice_maker/utils/configs.dart';
 import 'package:invoice_maker/utils/constants.dart';
 import 'package:nb_utils/nb_utils.dart';
@@ -25,7 +26,8 @@ void main() async {
   await initialize();
 
   /// Initialize the Google Work sheet.
-  await GSheetsServices.initializeForWorksheet(spreadsheetId, worksheetTitle);
+  await GSheetsServices.initializeForWorksheet(SPREAD_SHEET_ID, WORK_SHEET_TITLE);
+
   appStore.setLoggedIn(getBoolAsync(SharePreferencesKey.IS_LOGGED_IN));
 
   if (appStore.isLoggedIn) {
@@ -42,13 +44,12 @@ void main() async {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: appName,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: AppTheme.lightTheme,
       home: SplashScreen(),
     );
   }

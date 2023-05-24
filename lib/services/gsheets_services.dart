@@ -22,7 +22,7 @@ class GSheetsServices {
   static final GSheets _gSheets = GSheets(_credential);
 
   static Future<void> initializeForWorksheet(String spreadsheetId, String worksheetTitle) async {
-    final excel = await _gSheets.spreadsheet(spreadsheetId);
+    Spreadsheet excel = await _gSheets.spreadsheet(spreadsheetId);
     _worksheet = excel.worksheetByTitle(worksheetTitle)!;
   }
 
