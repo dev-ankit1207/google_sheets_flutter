@@ -1,4 +1,4 @@
-# invoice_maker
+# Google Sheets Example
 
 A new Flutter project.
 
