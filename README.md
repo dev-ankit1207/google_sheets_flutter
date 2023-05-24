@@ -4,13 +4,4 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Google Sheets project developed with Flutter is a versatile application that allows users to input data from within the app, which is then seamlessly stored in an Excel sheet. This integration between Flutter and Google Sheets provides a convenient way to manage and analyze data, combining the user-friendly interface of a mobile app with the powerful data processing capabilities of spreadsheets.
